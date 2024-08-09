@@ -1,0 +1,98 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4d4d4 !important;
+}
+
+/* Section Accueil */
+#accueil {
+    padding: 60px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+#accueil h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#accueil p {
+    font-size: 1.2em;
+}
+
+#accueil img {
+    margin-top: 20px;
+    border: 5px solid #fff;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Section Contact */
+#contact p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Footer (optional) */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #accueil h1 {
+        font-size: 2em;
+    }
+
+    #accueil p {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
